@@ -1,0 +1,15 @@
+server:
+  port: 8081
+  servlet:
+    context-path: /rocketmq
+spring:
+  application:
+    name:rocket-mq
+  profiles:
+    active: dev
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/test2?useUnicode=true&characterEncoding=utf-8&allowMultiQueries=true&useSSL=false&zeroDateTimeBehavior=convertToNull&serverTimezone=Asia/Shanghai&autoReconnect=true
+    password: passwd
+    name: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
