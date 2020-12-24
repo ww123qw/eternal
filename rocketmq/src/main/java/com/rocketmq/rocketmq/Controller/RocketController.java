@@ -20,7 +20,7 @@ public class RocketController {
     DefaultMQPushConsumer pushConsumer;
     @RequestMapping("/sendMsg")
     public SendResult sendMsg (){
-        consumerConfig.getRocketMQConsumer();
+//        consumerConfig.getRocketMQConsumer();
         String msg = "OpenAccount Msg";
         SendResult sendResult = null;
         try {
